@@ -7,11 +7,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'flutter_web Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'flutter_web Demo Home Page'),
     );
   }
 }
@@ -23,7 +23,7 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // The Flutter framework has been optimized to make rerunning build methods
+    // The flutter_web framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
@@ -39,7 +39,7 @@ class MyHomePage extends StatelessWidget {
           // children horizontally, and tries to be as tall as its parent.
           //
           // Invoke "debug painting" (choose the "Toggle Debug Paint" action
-          // from the Flutter Inspector in Android Studio, or the "Toggle Debug
+          // from the flutter_web Inspector in Android Studio, or the "Toggle Debug
           // Paint" command in Visual Studio Code) to see the wireframe for each
           // widget.
           //
