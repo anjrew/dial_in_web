@@ -1,11 +1,10 @@
 import 'package:dial_in_v1/blocs/main_bloc.dart';
 import 'package:dial_in_v1/pages/login/bloc_login_signup.dart';
-import 'package:dial_in_v1/pages/login/log_in.dart';
-import 'package:dial_in_v1/pages/login/sign_up.dart';
-import 'package:dial_in_v1/routes/routes.dart';
-import 'package:dial_in_v1/widgets/popups.dart';
-import 'package:flutter/material.dart';
-import 'package:scoped_model/scoped_model.dart';
+import '../../pages/login/log_in.dart';
+import '../../pages/login/sign_up.dart';
+import '../../routes/routes.dart';
+import '../../widgets/popups.dart';
+import 'package:flutter_web/material.dart';
 
 class LoginSignUpPage extends StatefulWidget {
   @override

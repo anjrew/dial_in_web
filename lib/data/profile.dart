@@ -3,7 +3,7 @@ import 'item.dart';
 import 'database_functions.dart';
 import 'strings.dart';
 import 'images.dart';
-import 'country.dart';
+import '../data/profile.dart';
 import 'images.dart';
 
 class Profile {

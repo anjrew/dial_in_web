@@ -3,7 +3,6 @@ import 'profile.dart';
 import 'functions.dart';
 import 'database_functions.dart';
 import 'mini_classes.dart';
-import 'error_reporting.dart';
 
 class ProfileFeedBloc{
 

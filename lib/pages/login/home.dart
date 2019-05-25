@@ -1,9 +1,8 @@
 
-import 'package:dial_in_v1/blocs/main_bloc.dart';
-import 'package:dial_in_v1/database_functions.dart';
-import 'package:dial_in_v1/routes/routes.dart';
-import 'package:dial_in_v1/widgets/popups.dart';
-import 'package:flutter/material.dart';
+import '../../data/database_functions.dart';
+import '../../routes/routes.dart';
+import '../../widgets/popups.dart';
+import 'package:flutter_web/material.dart';
 
 class HomePage extends StatefulWidget {
   @override

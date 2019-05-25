@@ -1,8 +1,5 @@
 import 'dart:async';
-import 'package:dial_in_v1/blocs/main_bloc.dart';
-import 'package:flutter/material.dart';
-import 'package:rxdart/subjects.dart';
-import 'package:scoped_model/scoped_model.dart';
+import 'package:flutter_web/material.dart';
 
 class LoginSignUpBloc extends Model {
 

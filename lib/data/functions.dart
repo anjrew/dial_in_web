@@ -1,5 +1,4 @@
-import 'profile_card.dart';
-import 'social_feed_card.dart';
+import '../widgets/cards/profile_card.dart';
 import 'package:flutter_web/cupertino.dart';
 import 'database_functions.dart';
 import 'strings.dart';

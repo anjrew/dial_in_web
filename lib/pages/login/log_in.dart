@@ -1,13 +1,11 @@
 import 'dart:async';
-import 'package:dial_in_v1/pages/login/bloc_login_signup.dart';
-import 'package:dial_in_v1/widgets/popups.dart';
-import 'package:flutter/material.dart';
-import 'package:dial_in_v1/data/strings.dart';
-import 'package:dial_in_v1/widgets/custom_widgets.dart';
-import 'package:dial_in_v1/database_functions.dart';
-import 'package:dial_in_v1/theme/appColors.dart';
-import 'package:dial_in_v1/blocs/main_bloc.dart';
-import 'package:dial_in_v1/routes/routes.dart';
+import '../../widgets/popups.dart';
+import 'package:flutter_web/material.dart';
+import '../../data/strings.dart';
+import '../../widgets/custom_widgets.dart';
+import '../../data/database_functions.dart';
+import '../../theme/appColors.dart';
+import '../../routes/routes.dart';
 
 class LoginPage extends StatefulWidget {
     @override
